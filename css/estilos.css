@@ -89,6 +89,7 @@ header{
 
 .div-asesoramiento{
     background-color: rgb(15, 70, 120);
+    height: 480px;
 }
 
 .div-asesoramiento-dos{
@@ -102,6 +103,31 @@ header{
     padding-left: 30px;
 }
 
+.section-asesoramiento{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+    justify-content: space-around;
+
+}
+
+.imgasesoramiento{
+    height: 40px;
+    width: 40px;
+}
+
+.p-asesoramiento{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+
+
 .h3-servicios{
     text-align: center;
     font-weight: bold;
@@ -112,42 +138,31 @@ header{
 .p-servicios{
     text-align: center;
     margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.p-serviciosdos{
+    margin: 0;
     font-size: 12px;
 }
 
-.ul-servicios{
-    padding-top: 50px;
-    list-style: none;
-   
+.section-lista-servicios{
     text-align: center;
-    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+    justify-content: space-around;
+
 }
 
-.li-servicios{
-    padding: 10px;
-}
 
-.span-servicios1{
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
+.imgtick{
+    height: 40px;
+    width: 40px;
 }
-.span-servicios2{
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-}
-.span-servicios3{
-    padding-left: 70px;
-    padding-right: 100px;
-    text-align: center;
-}
-.span-servicios4{
-    padding-left: 80px;
-    padding-right: 100px;
-    text-align: center;
-}
-
 .section-productos{
     text-align: center;
     padding-top: 40px;
@@ -162,7 +177,6 @@ header{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    padding-top: 70px;
 }
 .card{
     background-color: rgb(15, 70, 120) ;
@@ -185,5 +199,44 @@ header{
 
 .card-img-top{
     height: 250px;
-    width: 287px;
+}
+
+.div-cotizar{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.p-cotizar{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.boton{
+    background-color: rgb(15, 70, 120);
+    color: white;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.div-contacto{
+    background-image: url(../img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-in-living-room-at-home\ \(1\)@2x.png);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.form{
+    height: 70vh;   
+    background-color: rgba(0, 0, 0, 0.159);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
 }
