@@ -233,6 +233,12 @@ header{
     text-align: center;
 }
 
+.h2contacto{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
 .form{
     height: 70vh;   
     background-color: rgba(0, 0, 0, 0.159);
