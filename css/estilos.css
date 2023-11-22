@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+
+/* Empieza el Header */
+header{
+    background-color: rgb(15, 5, 87);
+    height: 60px;
+}
+
+.nav-item{
+    left: 502.411px;
+    top: 16.7758px;
+    font-size: 16px;
+    padding: 10px;
+    transform: scaleX(1.0876);
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+/* Termina el Header */
+
+.foto-sobremi{
+    background-image: url(../img/thumbnail_LOGO\ GELOS&LOPEZ.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.descripcion{
+    text-align: center;
+    padding: 35px;
+    
+}
+.h1-desc{
+    font-weight: bold;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.h4-desc{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.spanh4{
+    color: transparent;
+    white-space: pre;
+    cursor: text;
+    transform-origin: 0% 0%;
+}
+
+.p-desc{
+    font-size: 18.6667;
+    font-weight: bold;
+    font-size: 25px;
+    width: 700px;
+    text-align: center;
+    
+
+}
+
+.p-desc-dos{
+    text-align: center;
+    font-size: 20px;
+}
+
+.divrespaldo{
+ text-align: center;
+}
+
+.div-asesoramiento{
+    background-color: rgb(15, 70, 120);
+}
+
+.div-asesoramiento-dos{
+    font-size: 25px;
+}
