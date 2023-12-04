@@ -4,8 +4,67 @@
     box-sizing: border-box;
     border: 0;
 }
+/*fuentes */
+@font-face {
+    font-family: 'gotham-black';
+    src: url(../fuentes/GOTHAM-BLACK.TTF);
+}
+@font-face {
+    font-family: 'gotham-blackitalic';
+    src: url(../fuentes/GOTHAM-BLACKITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-bold';
+    src: url(../fuentes/GOTHAM-BOLD.TTF);
+}
+@font-face {
+    font-family: 'gotham-bolditalic';
+    src: url(../fuentes/GOTHAM-BOLDITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-light';
+    src: url(../fuentes/GOTHAM-LIGHT.TTF);
+}
+@font-face {
+    font-family: 'gotham-lightitalic';
+    src: url(../fuentes/GOTHAM-LIGHTITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-medium';
+    src: url(../fuentes/GOTHAM-MEDIUM.TTF);
+}
+@font-face {
+    font-family: 'gotham-mediumitalic';
+    src: url(../fuentes/GOTHAM-MEDIUMITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-thin';
+    src: url(../fuentes/GOTHAM-THIN.TTF);
+}
+@font-face {
+    font-family: 'gotham-thinitalic';
+    src: url(../fuentes/GOTHAM-THINITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-ultra';
+    src: url(../fuentes/GOTHAM-ULTRA.TTF);
+}
+@font-face {
+    font-family: 'gotham-ultraitalic';
+    src: url(../fuentes/GOTHAM-ULTRAITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-xlight';
+    src: url(../fuentes/GOTHAM-XLIGHT.TTF);
+}
+@font-face {
+    font-family: 'gotham-xlightitalic';
+    src: url(../fuentes/GOTHAM-XLIGHTITALIC.TTF);
+}
+
+/*cierro fuentes*/
 body{
-    font-family: sans-serif;
+    font-family: 'gotham-medium'; 
     scroll-behavior: smooth;
     box-sizing: border-box;
     display: flex;
@@ -107,12 +166,16 @@ header{
 .divrespaldo{
  text-align: center;
  background-size: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
 }
 
 .imgsmarg{
     padding: 20px;
     padding-bottom: 80px;
-    
+    width: 50vh;
 }
 
 .div-asesoramiento{
@@ -208,7 +271,7 @@ header{
 }
 .card{
     background-color: rgb(15, 70, 120) ;
-    width: 18rem;
+    width: 20rem;
     border-color: white;
 }
 
