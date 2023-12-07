@@ -87,8 +87,8 @@ header{
    width: 100%;
 }
 
-.nav-link{
-    
+.navbar-toggler{
+    background-color: white;
 }
 
 
@@ -304,7 +304,7 @@ header{
 
 .div-contacto{
     background-image: url(../img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-in-living-room-at-home\ \(1\)@2x.png);
-    height: 70vh;
+    height: 82vh;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -317,20 +317,19 @@ header{
 }
 
 .form{
-    height: 70vh;   
+    height: 82vh;   
     background-color: rgba(0, 0, 0, 0.159);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 100px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0);
-
 }
 
 .boton2{
     background-color: white;
     color: rgb(15, 70, 120);
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 100px;
+    padding-left: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 20px;
@@ -338,7 +337,11 @@ header{
     font-weight: bold;
 }
 .form-control{
-    background-color: transparent;
-    border: 1px solid;
+    border: 1px ;
+    margin: 10px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.6);    
 }
-
+.form-control:focus{
+    background-color: rgb(90, 222, 255);
+}
