@@ -68,15 +68,7 @@ body{
     font-family: 'gotham-medium'; 
     scroll-behavior: smooth;    
 }
-header{
-    background-color: rgb(15, 70, 120);
-    font-family: 'gotham-light';
-    padding: 15px;
-    font-size: 20px;
-   width: 100%;
 
-
-}
 
 main{
     background-image: url(../img/thumbnail_LOGO\ GELOS&LOPEZ.jpg);
@@ -87,21 +79,18 @@ main{
 
 /* Empieza el Header */
 
-.nav{
-    justify-content: center;
-    
-}
-
-.nav li{
-    display: inline-block;
-    list-style: none;
+header{
+    background-color: rgb(15, 70, 120);
+    font-family: 'gotham-light';
+    padding: 15px;
+    font-size: 20px;
+   width: 100%;
 }
 
 .nav-link{
-    text-decoration: none;
-    color: white;
-   padding-right: 70px;
+    
 }
+
 
 /* Termina el Header */
 
