@@ -70,13 +70,6 @@ body{
 }
 
 
-main{
-    background-image: url(../img/thumbnail_LOGO\ GELOS&LOPEZ.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-
 /* Empieza el Header */
 
 header{
@@ -104,6 +97,9 @@ header{
   height: 70vh;   
 
 }
+/*Cierro Logo */
+
+/*Abro descripcion principal*/
 .descripcion{
     text-align: center;
     padding: 35px;
@@ -142,7 +138,9 @@ header{
     margin: 0;
     font-family: 'gotham-light';
 }
+/*Cierro descripcion principal*/
 
+/*Abro imagen swiss medical arg*/
 .imgarg{
     text-align: center;
     padding-bottom: 100px;
@@ -153,7 +151,9 @@ header{
     max-width: 100%;
     height: auto;
 }
+/*Cierro imagen swiss medical arg*/
 
+/*Abro Asesoramiento personal*/
 .section-asesoramiento{
     background-color: rgb(15, 70, 120);
     
@@ -192,8 +192,10 @@ header{
     color: white;
     font-family: 'gotham-thin';
 }
+/*Cierro Asesoramiento personal*/
 
 
+/*Abro Servicios*/
 
 .h3-servicios{
     text-align: center;
@@ -203,6 +205,13 @@ header{
     font-family: 'gotham-bold';
 }
 
+.section-lista-servicios{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+    justify-content: space-around;
+}
 .p-servicios{
     text-align: center;
     margin: 0;
@@ -218,19 +227,18 @@ header{
     font-size: 12px;
     font-family: 'gotham-light';
 }
-
-.section-lista-servicios{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 70px;
-    justify-content: space-around;
-}
-
-
 .imgtick{
     height: 40px;
     width: 40px;
+}
+/*Cierro Servicios*/
+
+
+/*Abro Productos*/
+.h2-productos{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 .section-productos{
     padding-top: 40px;
@@ -241,15 +249,15 @@ header{
     gap: 50px;
     justify-content: space-around;
 }
-.h2-productos{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
+
 .card{
     background-color: rgb(15, 70, 120) ;
     width: 20rem;
     border-color: white;
+}
+
+.card-img-top{
+    height: 250px;
 }
 
 .card-body{
@@ -266,11 +274,9 @@ header{
     font-size: 20px;
     font-family: 'gotham-medium';
 }
+/*Cierro Productos*/
 
-.card-img-top{
-    height: 250px;
-}
-
+/*Abro Cotizar*/
 .div-cotizar{
     text-align: center;
     padding-bottom: 50px;
@@ -294,6 +300,10 @@ header{
     font-family: 'gotham-medium';
     text-transform: uppercase;
 }
+/*Cierro Cotizar*/
+
+
+/*Abro Contacto*/
 
 .div-contacto{
     background-image: url(../img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-in-living-room-at-home\ \(1\)@2x.png);
@@ -338,3 +348,4 @@ header{
 .form-control:focus{
    border-bottom: 3px solid rgb(90, 222, 255);
 }
+/*Cierro Contacto*/
