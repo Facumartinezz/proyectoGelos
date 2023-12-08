@@ -143,22 +143,15 @@ header{
     font-family: 'gotham-light';
 }
 
-.divrespaldo{
- text-align: center;
- background-size: 20px;
- display: flex;
- align-items: center;
- justify-content: center;
- font-family: 'gotham-medium';
- 
+.imgarg{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
 }
 
-.fotosmg{
-    background-image: url(../img/Group\ 139@2x.png);
-    height: 162px;
-    width: 630px;
-    display: flex;
-    background-position: center;
+.imgsmg{
+    max-width: 100%;
+    height: auto;
 }
 
 .section-asesoramiento{
