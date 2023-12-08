@@ -80,9 +80,19 @@ header{
    width: 100%;
 }
 
+.navbar-collapse{
+    justify-content: space-around;
+}
+
 .navbar-toggler{
     background-color: white;
 }
+
+.a{
+    padding-right: 60px;
+}
+
+
 
 
 /* Termina el Header */
