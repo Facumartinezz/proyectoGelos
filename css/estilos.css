@@ -158,6 +158,7 @@ header{
 }
 
 .imgsmg{
+    max-width: 90%;
     height: auto;
 }
 /*Cierro imagen swiss medical arg*/
@@ -370,9 +371,7 @@ footer{
         padding-left: 80px;
         padding-right: 80px;
     }
-    .imgsmg{
-        max-width: 90%; 
-    }
+    
 }
 
 @media(min-width:768px) {
@@ -391,9 +390,7 @@ footer{
     .form{
         max-width: 50%;
     }
-    .imgsmg{
-        max-width: 100%;
-    }
+    
 }
 
 /*Cierro Contacto*/
