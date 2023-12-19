@@ -376,7 +376,7 @@ footer{
         padding-right: 80px;
     }
     .imgsmg{
-        max-width: 90%;
+        min-width: 90%;
     }
 }
 
@@ -398,7 +398,7 @@ footer{
     }
 
     .imgsmg{
-        max-width: 40%;
+        min-width: 40%;
     }
     
 }
