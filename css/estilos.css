@@ -104,7 +104,7 @@ header{
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 53vh;   
+  height: 60vh;   
 
 }
 /*Cierro Logo */
@@ -378,6 +378,9 @@ footer{
     .imgsmg{
         min-width: 90%;
     }
+    .foto-sobremi{
+        height: 50vh;
+    }
 }
 
 @media(min-width:768px) {
@@ -390,6 +393,9 @@ footer{
     .form{
         max-width: 75%;
     }
+    .foto-sobremi{
+        height: 60vh;
+    }
 }
 
 @media(min-width:1440px) {
@@ -400,6 +406,7 @@ footer{
     .imgsmg{
         min-width: 40%;
     }
+    
     
 }
 
