@@ -214,7 +214,6 @@ header{
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 70px;
     font-family: 'gotham-bold';
 }
 
@@ -260,6 +259,7 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     gap: 50px;
+    padding-bottom: 50px;
     justify-content: space-around;
 }
 
@@ -410,3 +410,13 @@ footer{
 }
 
 /*Cierro Contacto*/
+
+/* cotizador
+/*
+    <div class="div-cotizar" id="cotizar">
+      <p class="p-cotizar">¡Clickea aqui para realizar una cotizacion!</p>
+      <button type="submit" class="boton">Cotizar</button>
+    </div>
+  </main>
+
+*/
