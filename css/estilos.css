@@ -157,9 +157,12 @@ header{
     padding-top: 40px;
 }
 
+
+
 .imgsmg{
-    max-width: 45%;
+    max-width: 40%;
     height: auto;
+    text-align: center;
 }
 /*Cierro imagen swiss medical arg*/
 
