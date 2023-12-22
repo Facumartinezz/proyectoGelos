@@ -157,12 +157,8 @@ header{
     padding-top: 40px;
 }
 
-
-
 .imgsmg{
-    max-width: 40%;
-    height: auto;
-    text-align: center;
+    max-width: 40%;    
 }
 /*Cierro imagen swiss medical arg*/
 
@@ -187,7 +183,7 @@ header{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 70px;
+    padding: 40px;
     justify-content: space-around;
 
 }
