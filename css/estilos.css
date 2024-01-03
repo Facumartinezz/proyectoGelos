@@ -312,6 +312,11 @@ header{
     font-size: 14px;
     font-family: 'gotham-medium';
     text-transform: uppercase;
+    
+}
+.boton:hover{
+    color: white;
+    text-decoration: none;
 }
 /*Cierro Cotizar*/
 
