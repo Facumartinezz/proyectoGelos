@@ -289,7 +289,7 @@ header{
 }
 /*Cierro Productos*/
 
-/*Abro Cotizar*/
+/*Abro Cotizar
 .div-cotizar{
     text-align: center;
     padding-bottom: 50px;
@@ -318,7 +318,7 @@ header{
     color: white;
     text-decoration: none;
 }
-/*Cierro Cotizar*/
+Cierro Cotizar*/
 
 
 /*Abro Contacto*/
@@ -416,12 +416,11 @@ footer{
 
 /*Cierro Contacto*/
 
-/* cotizador
-/*
-    <div class="div-cotizar" id="cotizar">
-      <p class="p-cotizar">¡Clickea aqui para realizar una cotizacion!</p>
-      <button type="submit" class="boton">Cotizar</button>
-    </div>
-  </main>
 
-*/
+
+/*
+<div class="div-cotizar" id="cotizar">
+      <p class="p-cotizar">¡Clickea aqui para realizar una cotizacion!</p>
+      <a href="https://cotizador.cover-it.com.ar/https://cotizador.cover-it.com.ar/" class="boton">Cotizar</a>
+    </div>
+    */
