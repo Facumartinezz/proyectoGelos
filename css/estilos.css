@@ -99,12 +99,12 @@ header{
 
 /* Logo */
 .foto-sobremi{
-    background-image: url(../img/slide\ 1.jpg);
+    background-image: url(../img/2.png);
   background-color: black;
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 60vh;   
+  height: 80vh;   
 
 }
 /*Cierro Logo */
@@ -134,12 +134,13 @@ header{
 }
 
 .p-desc{
-    font-size: 18.6667;
+    
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
     text-align: center;
     font-family: 'gotham-medium';
+    padding-bottom: 30px;
 }
 
 .p-desc-dos{
@@ -148,12 +149,19 @@ header{
     margin: 0;
     font-family: 'gotham-light';
 }
+.p-desc-dos-final{
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'gotham-light';
+    padding-bottom: 70px;
+}
 /*Cierro descripcion principal*/
 
 /*Abro imagen swiss medical arg*/
 .imgarg{
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     padding-top: 40px;
 }
 
@@ -174,6 +182,8 @@ header{
     font-weight: bold;
     text-align: center;
 }
+
+
 
 .spanasesoramiento{
     padding-left: 40px;
@@ -201,6 +211,15 @@ header{
     color: white;
     font-family: 'gotham-thin';
 }
+.p-asesoramiento-f{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'gotham-thin';
+    font-weight: 900;
+}
 
 .spanase{
     color: rgb(15, 70, 120);
@@ -210,7 +229,8 @@ header{
 
 /*Abro Servicios*/
 
-.h3-servicios{
+.h2-servicios{
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -227,16 +247,16 @@ header{
 .p-servicios{
     text-align: center;
     margin: 0;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 35px;
     font-family: 'gotham-medium';
 }
 
 .p-serviciosdos{
     margin: 0;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'gotham-light';
 }
 .imgtick{
@@ -248,7 +268,7 @@ header{
 
 /*Abro Productos*/
 .h2-productos{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
@@ -258,8 +278,8 @@ header{
     flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 20px;
-    gap: 50px;
-    padding-bottom: 50px;
+    gap: 12px;
+    padding-bottom: 100px;
     justify-content: space-around;
 }
 
@@ -383,7 +403,7 @@ footer{
         min-width: 90%;
     }
     .foto-sobremi{
-        max-height: 50vh;
+        max-height: 60vh;
     }
 }
 
@@ -398,7 +418,7 @@ footer{
         max-width: 75%;
     }
     .foto-sobremi{
-        max-height: 60vh;
+        max-height: 80vh;
     }
 }
 
