@@ -224,6 +224,22 @@ header{
 .spanase{
     color: rgb(15, 70, 120);
 }
+
+.a-instagram{
+    color: white;
+}
+
+.a-facebook{
+    color: white;
+}
+.a-instagram:hover{
+    text-decoration: none;
+}
+
+.a-facebook:hover{
+    text-decoration: none;
+}
+
 /*Cierro Asesoramiento personal*/
 
 
@@ -309,7 +325,7 @@ header{
 }
 /*Cierro Productos*/
 
-/*Abro Cotizar
+/*Abro Cotizar*/
 .div-cotizar{
     text-align: center;
     padding-bottom: 50px;
@@ -338,7 +354,7 @@ header{
     color: white;
     text-decoration: none;
 }
-Cierro Cotizar*/
+/*Cierro Cotizar*/
 
 
 /*Abro Contacto*/
@@ -390,6 +406,30 @@ footer{
 .form-control:focus{
    border-bottom: 3px solid rgb(90, 222, 255);
 }
+
+/*Boton Flotante*/
+.botonFlotante{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0df053;
+    border-radius: 50px;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.botonFlotante:hover{
+    text-decoration: none;
+    color: #0df053;
+    background-color: white;
+}
+
+/*Media Queries*/
 
 @media(min-width:320px) {
     .form{
