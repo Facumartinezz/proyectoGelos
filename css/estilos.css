@@ -425,7 +425,7 @@ footer{
     right: 40px;
     background-color: #0df053;
     border-radius: 50px;
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     z-index: 100;
@@ -434,7 +434,8 @@ footer{
 .botonFlotante:hover{
     text-decoration: none;
     color: #0df053;
-    background-color: white;
+    background-color: #0df053;
+
 }
 
 /*Media Queries*/
