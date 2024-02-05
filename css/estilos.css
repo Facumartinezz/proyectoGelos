@@ -465,6 +465,9 @@ footer{
     .p-desc1{
         font-size: 15px;
     }
+    .card{
+        width: 20rem;
+    }
 }
 
 @media(min-width:768px) {
@@ -476,6 +479,9 @@ footer{
     }
     .p-desc1{
         font-size: 16px;
+    }
+    .card{
+        width: 20rem;
     }
 }
 
@@ -492,6 +498,9 @@ footer{
     .p-desc1{
         font-size: 19px;
     }
+    .card{
+        width: 17rem;
+    }
 }
 
 @media(min-width:1440px) {
@@ -504,6 +513,9 @@ footer{
     }
     .h1-desc{
         font-size: 48px;
+    }
+    .card{
+        width: 17rem;
     }
     
 }
