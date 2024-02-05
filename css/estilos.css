@@ -333,7 +333,7 @@ header{
     font-weight: 800;
     padding-bottom: 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'gotham-medium';
 }
 /*Cierro Productos*/
@@ -523,7 +523,9 @@ footer{
     .card{
         width: 17rem;
     }
-    
+    .card-text{
+        font-size: 18px;
+    }
 }
 
 /*Cierro Contacto*/
