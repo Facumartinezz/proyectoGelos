@@ -504,6 +504,9 @@ footer{
     .card-text{
         font-size: 14px;
     }
+    .imgsmg{
+        min-width: 70%;
+    }
 }
 
 @media(min-width:1440px) {
