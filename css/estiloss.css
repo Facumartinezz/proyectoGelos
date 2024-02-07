@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+/*fuentes */
+@font-face {
+    font-family: 'gotham-black';
+    src: url(../fuentes/GOTHAM-BLACK.TTF);
+}
+@font-face {
+    font-family: 'gotham-blackitalic';
+    src: url(../fuentes/GOTHAM-BLACKITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-bold';
+    src: url(../fuentes/GOTHAM-BOLD.TTF);
+}
+@font-face {
+    font-family: 'gotham-bolditalic';
+    src: url(../fuentes/GOTHAM-BOLDITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-light';
+    src: url(../fuentes/GOTHAM-LIGHT.TTF);
+}
+@font-face {
+    font-family: 'gotham-lightitalic';
+    src: url(../fuentes/GOTHAM-LIGHTITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-medium';
+    src: url(../fuentes/GOTHAM-MEDIUM.TTF);
+}
+@font-face {
+    font-family: 'gotham-mediumitalic';
+    src: url(../fuentes/GOTHAM-MEDIUMITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-thin';
+    src: url(../fuentes/GOTHAM-THIN.TTF);
+}
+@font-face {
+    font-family: 'gotham-thinitalic';
+    src: url(../fuentes/GOTHAM-THINITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-ultra';
+    src: url(../fuentes/GOTHAM-ULTRA.TTF);
+}
+@font-face {
+    font-family: 'gotham-ultraitalic';
+    src: url(../fuentes/GOTHAM-ULTRAITALIC.TTF);
+}
+@font-face {
+    font-family: 'gotham-xlight';
+    src: url(../fuentes/GOTHAM-XLIGHT.TTF);
+}
+@font-face {
+    font-family: 'gotham-xlightitalic';
+    src: url(../fuentes/GOTHAM-XLIGHTITALIC.TTF);
+}
+
+/*cierro fuentes*/
+body{
+    min-height: 100vh;
+    font-family: 'gotham-medium'; 
+    scroll-behavior: smooth;    
+}
+
+
+/* Empieza el Header */
+
+header{
+    background-color: rgb(15, 70, 120);
+    font-family: 'gotham-light';
+    padding: 15px;
+    font-size: 20px;
+   width: 100%;
+}
+
+.navbar-collapse{
+    justify-content: space-around;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.a{
+    padding-right: 60px;
+}
+
+
+
+
+/* Termina el Header */
+
+/* Logo */
+.foto-sobremi{
+    background-image: url(../img/2.png);
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 80vh;   
+
+}
+/*Cierro Logo */
+
+/*Abro descripcion principal*/
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.descripcion1{
+    padding: 35px;
+}
+
+.descripcion2{
+    padding: 35px;
+}
+
+.h1-desc{
+    font-family: 'gotham-bold';
+    font-size: 48px;
+}
+
+.p-desc1{
+    font-size: 18px;
+    font-family: 'gotham-medium';
+    text-align: center;
+}
+
+.palito{
+    font-size: 130px;
+    font-family: 'gotham-xlight';
+}
+
+.p-desc{
+    
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: 'gotham-medium';
+    padding-bottom: 30px;
+}
+
+.p-desc-dos{
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'gotham-light';
+}
+.p-desc-dos-final{
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'gotham-light';
+    padding-bottom: 70px;
+}
+/*Cierro descripcion principal*/
+
+/*Abro imagen swiss medical arg*/
+.imgarg{
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.imgsmg{
+    max-width: 40%;    
+}
+/*Cierro imagen swiss medical arg*/
+
+/*Abro Asesoramiento personal*/
+.section-asesoramiento{
+    background-color: rgb(15, 70, 120);
+    
+}
+
+.div-asesoramiento-dos{
+    font-size: 25px;
+    color: #fafafa;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-asesoramiento-tres{
+    font-size: 25px;
+    color: #fafafa;
+    font-weight: bold;
+    text-align: center;
+}
+
+.spanasesoramiento{
+    padding-left: 40px;
+}
+
+.div-asesoramiento{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    justify-content: space-around;
+
+}
+
+.imgasesoramiento{
+    height: 40px;
+    width: 40px;
+}
+
+.p-asesoramiento{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'gotham-thin';
+    font-weight: 900;
+
+}
+.p-asesoramiento-f{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'gotham-thin';
+    
+}
+
+.spanase{
+    color: rgb(15, 70, 120);
+}
+
+.a-instagram{
+    color: white;
+}
+
+.a-facebook{
+    color: white;
+}
+.a-instagram:hover{
+    text-decoration: none;
+}
+
+.a-facebook:hover{
+    text-decoration: none;
+}
+
+/*Cierro Asesoramiento personal*/
+
+
+/*Abro Servicios*/
+
+.h2-servicios{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'gotham-bold';
+}
+
+.section-lista-servicios{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+    justify-content: space-around;
+}
+.p-servicios{
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-family: 'gotham-medium';
+}
+
+.p-serviciosdos{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'gotham-light';
+}
+.imgtick{
+    height: 40px;
+    width: 40px;
+}
+/*Cierro Servicios*/
+
+
+/*Abro Productos*/
+.h2-productos{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-productos{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: rgb(15, 70, 120) ;
+    width: 17rem;
+    border-color: white;
+}
+.card-img-top{
+    height: 250px;
+}
+
+.card-body{
+    background-color: rgb(15, 70, 120);
+    height: 60px;
+    border-radius: 20px;
+}
+
+.card-text{
+    color: white;
+    font-weight: 800;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'gotham-medium';
+}
+/*Cierro Productos*/
+
+/*Abro Cotizar*/
+.div-cotizar{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.p-cotizar{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.boton{
+    background-color: rgb(15, 70, 120);
+    color: white;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'gotham-medium';
+    text-transform: uppercase;
+    
+}
+.boton:hover{
+    color: white;
+    text-decoration: none;
+}
+/*Cierro Cotizar*/
+
+
+/*Abro Contacto*/
+
+footer{
+    background-image: url(../img/freelance-young-asian-businesswoman-casual-wear-using-laptop-working-in-living-room-at-home\ \(1\)@2x.png);
+    height: 82vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.h2contacto{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.div-contacto{
+    height: 82vh;   
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.form{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.boton2{
+    background-color: white;
+    color: rgb(15, 70, 120);
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-control{
+    border: 1px ;
+    margin: 10px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.6);    
+}
+.form-control:focus{
+   border-bottom: 3px solid rgb(90, 222, 255);
+}
+
+/*Boton Flotante*/
+.botonFlotante{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0df053;
+    border-radius: 50px;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.botonFlotante:hover{
+    text-decoration: none;
+    color: #0df053;
+    background-color: #0df053;
+
+}
+
+.col-md-3 {
+    width:unset;
+}
+.col-md-6 {
+    width:unset;
+}
+
+/*Media Queries*/
+
+@media(min-width:320px) {
+    .form{
+        max-width: 100%;
+    }
+    .boton2{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .imgsmg{
+        min-width: 90%;
+    }
+    .foto-sobremi{
+        max-height: 60vh;
+    }
+    .h1-desc{
+        font-size: 25px;
+    }
+    .p-desc1{
+        font-size: 15px;
+    }
+    .card{
+        width: 20rem;
+    }
+    .descripcion1{
+        text-align: center;
+    }
+    .descripcion2{
+        text-align: center;
+    }
+}
+
+@media(min-width:768px) {
+    .form{
+        max-width: 70%;
+    }
+    .h1-desc{
+        font-size: 28px;
+    }
+    .p-desc1{
+        font-size: 16px;
+    }
+    .card{
+        width: 20rem;
+    }
+}
+
+@media(min-width:1024px) {
+    .form{
+        max-width: 75%;
+    }
+    .foto-sobremi{
+        max-height: 80vh;
+    }
+    .h1-desc{
+        font-size: 30px;
+    }
+    .p-desc1{
+        font-size: 19px;
+    }
+    .card{
+        width: 11rem;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .imgsmg{
+        min-width: 70%;
+    }
+}
+
+@media(min-width:1440px) {
+    .form{
+        max-width: 50%;
+    }
+
+    .imgsmg{
+        min-width: 40%;
+    }
+    .h1-desc{
+        font-size: 48px;
+    }
+    .card{
+        width: 17rem;
+    }
+    .card-text{
+        font-size: 20px;
+    }
+}
+
+/*Cierro Contacto*/
+
+
+
+/*
+<div class="div-cotizar" id="cotizar">
+      <p class="p-cotizar">¡Clickea aqui para realizar una cotizacion!</p>
+      <a href="https://cotizador.cover-it.com.ar/https://cotizador.cover-it.com.ar/" class="boton">Cotizar</a>
+    </div>
+    */
