@@ -313,16 +313,10 @@ header{
     justify-content: space-around;
 }
 
-.container{
-    max-width: 50%;
-    
-}
-
 .card{
     background-color: rgb(15, 70, 120) ;
     width: 17rem;
     border-color: white;
-    
 }
 .card-img-top{
     height: 250px;
@@ -449,6 +443,13 @@ footer{
 
 }
 
+.col-md-3 {
+    width:unset;
+}
+.col-md-6 {
+    width:unset;
+}
+
 /*Media Queries*/
 
 @media(min-width:320px) {
@@ -474,9 +475,11 @@ footer{
     .card{
         width: 20rem;
     }
-    .container{
-        max-width: 50%;
-        
+    .descripcion1{
+        text-align: center;
+    }
+    .descripcion2{
+        text-align: center;
     }
 }
 
